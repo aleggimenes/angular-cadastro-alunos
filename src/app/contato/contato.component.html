@@ -1,0 +1,13 @@
+<div>
+<label>Nome:
+<input #nome />
+</label>
+<br>
+<label>Telefone:
+<input #telefone />
+</label>
+<br>
+<button (click)="salvar(nome.value,telefone.value); nome.value='';telefone.value=' '">
+Salvar
+</button>
+</div>
